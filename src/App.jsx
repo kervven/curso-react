@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+        <HelloWord/>
         <Pessoa nome="Rodriga"
                 idade="33"
                 profissao="Programadora"
