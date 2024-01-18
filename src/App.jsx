@@ -4,6 +4,7 @@
 import HelloWord from "./components/HelloWord.jsx";
 import SayMyName from "./components/SayMyName.jsx";
 import Pessoa from "./components/Pessoa.jsx";
+import List from "./components/List.jsx";
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 profissao="Programadora"
                 foto="https://via.placeholder.com/150"
         />
+        <List/>
     </>
   )
 }
